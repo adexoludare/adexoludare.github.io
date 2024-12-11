@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adedipupo Oludare A</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body id="page">
+    <div class="container">
+      <div class="menu">
+        <div class="mode">
+          <img id="day" src="./images/dday mode.png" class="dayNight" />
+          <img id="night" src="./images/night mode.png" class="dayNight hide" />
+        </div>
+        <a href="#Contact"><button class="btn">Let’s Talk</button></a>
+      </div>
+
+      <header>
+        <div class="ham-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </header>
+
+      <nav id="nav" class="nav">
+        <div class="nav-links">
+          <div class="profile" id="closeMenu">
+            <img src="./images/Adexoludare.png" alt="icon" class="iconImage" />
+            <div class="ham-menu">
+              <span class="profile"></span>
+              <span class="profile"></span>
+              <span class="profile"></span>
+            </div>
+          </div>
+          <a class="nav-link" href="#Home">Home</a>
+          <a class="nav-link" href="#AboutMe">About Me</a>
+          <a class="nav-link" href="#Projects">Projects</a>
+          <a class="nav-link" href="#Resume">Resume</a>
+          <a class="nav-link" href="#Contact">Contact</a>
+        </div>
+        <div class="nav-overlay"></div>
+      </nav>
+      <main>
+        <section id="Home" class="Home">
+          <h1 class="main-heading">
+            Hey, My name is <br />
+            Adedipupo Oludare
+          </h1>
+          <p class="large">
+            I am a passionate frontend developer based in Lagos, Nigeria. My
+            specialities are <strong>Html</strong>, <strong>CSS</strong>,
+            <strong>JavaScript</strong> and <strong>React JS</strong> and, and I
+            love building apps that are delightful to use.
+          </p>
+          <a href="#Projects" class="btn">SEE MY PROJECTS</a>
+        </section>
+        <section id="AboutMe" class="AboutMe">
+          <div class="card">
+            <div class="aline-center">
+              <h2 style="text-transform: uppercase">About Me</h2>
+              <div class="topBer"></div>
+              <p>
+                I'm a frontend developer based in Lagos, Nigeria. I love
+                building apps that solve real-world problems, and that are
+                delightful to use. I recently graduated from the ALX Africa
+                Software Engineering Program, where I honed my skills in HTML,
+                CSS, JavaScript, and React.js, and learned how to create
+                dynamic, interactive user interfaces.
+              </p>
+            </div>
+            <div class="about__content">
+              <div class="about__content-main">
+                <h3 class="">Get to know me!</h3>
+                <p class="">
+                  My background in Electronics and Electrical Engineering has
+                  given me a strong analytical foundation, which I bring into
+                  every project to solve complex problems and deliver
+                  high-quality results.
+                </p>
+              </div>
+              <div class="about__content-skills">
+                <h3 class="">My Skills</h3>
+                <div id="skills">
+                  <samp class="skill">HTML</samp>
+                  <samp class="skill">CSS</samp>
+                  <samp class="skill">JavaScript</samp>
+                  <samp class="skill">React</samp>
+                  <samp class="skill">TypeScript</samp>
+                  <samp class="skill">Git</samp>
+                  <samp class="skill">Figma</samp>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="Projects" class="Projects">
+          <div>
+            <h2 style="text-transform: uppercase">Projects</h2>
+            <div class="topBer"></div>
+            <p>
+              All my projects include links to the code and live version. Click
+              the button to Live Link about each one.
+            </p>
+            <div class="projects__content">
+              <div class="projects__row">
+                <div>
+                  <img
+                    src="./images/quiz.jpg"
+                    alt="Software Screenshot"
+                    class="projects__row-img"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="projects__row-content">
+                  <h3 class="projects__row-content-title">Quiz App</h3>
+                  <p class="projects__row-content-desc">
+                    Quizzical is a simple quiz app that lets you select
+                    alternatives and then gives you a score. It's built with
+                    functional React components.
+                  </p>
+                  <a href="https://quizzical-virid-xi.vercel.app/" class="btn"
+                    >Live Link</a
+                  >
+                </div>
+              </div>
+              <div class="projects__row">
+                <div>
+                  <img
+                    src="./images/tenzies.jpg"
+                    alt="Software Screenshot"
+                    class="projects__row-img"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="projects__row-content">
+                  <h3 class="projects__row-content-title">Tenzies</h3>
+                  <p class="projects__row-content-desc">
+                    A disc game for children whereby player roll ten discs at
+                    the same time and keep rolling until all dice are the same.
+                    Click each die to freeze it at its current value between
+                    rolls. It's built with functional React components.
+                  </p>
+                  <a href="https://tenzies-nu-rouge.vercel.app/" class="btn"
+                    >Live Link</a
+                  >
+                </div>
+              </div>
+              <div class="projects__row">
+                <div>
+                  <img
+                    src="./images/pg.png"
+                    alt="Software Screenshot"
+                    class="projects__row-img"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="projects__row-content">
+                  <h3 class="projects__row-content-title">
+                    Password Generator
+                  </h3>
+                  <p class="projects__row-content-desc">
+                    An app that generates random passwords based on a few user
+                    inputs, e.g. length, types of characters, etc. Built with
+                    HTML, CSS, and vanilla JavaScript.
+                  </p>
+                  <a
+                    href="https://random-password-generator-two-zeta.vercel.app/"
+                    class="btn"
+                    >Live Link</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="Resume" class="Resume">
+          <a
+            href="./assets/Adedipupo Oludare Abraham CV.pdf"
+            download="Adedipupo Oludare CV"
+            class="downloadCv"
+            >Download CV</a
+          >
+          <div class="resContainer">
+            <div class="skills">
+              <a href=""><h3>Adedipupo Oludare</h3></a>
+              <p>Lagos, Nigeria</p>
+              <a href="mailto:adexoludare@gmail.com">hello@adexoludare</a>
+              <br /><br /><br />
+              <ul>
+                <h3>Core Technologies:</h3>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>React.js</li>
+                <li>Bootstrap</li>
+                <li>Tailwind CSS</li>
+                <h4>Version Control</h4>
+                <li>Git</li>
+                <li>gitHub</li>
+              </ul>
+            </div>
+            <div class="resBody">
+              <h2>Adedipupo Oludare A</h2>
+              <p class="title">Frontend developer and UI/UX designer</p>
+              <br />
+              <h4>
+                I specialized in creating dynamic and responsive web
+                applications.
+              </h4>
+              <br />
+              <hr />
+              <h4>TECHNICAL SKILLS</h4>
+              <li>
+                <span style="font-weight: 800">Frontend Development:</span>
+                Html5, CSS3, JavaScript (ES6+), React.js
+              </li>
+              <li>
+                <span style="font-weight: 800">Frameworks & Libraries: </span
+                >Bootstrap, Tailwind CSS
+              </li>
+              <li>
+                <span style="font-weight: 800">Version Control: </span> Git,
+                GitHub
+              </li>
+              <li>
+                <span style="font-weight: 800">Soft Skills: </span>
+                Problem-solving, teamwork, attention to detail, self-driven
+                learner
+              </li>
+
+              <br />
+              <hr />
+              <h3>PROJECTS</h3>
+              <h4>Portfolio Website</h4>
+              <p>
+                <span style="font-weight: 800">Tech Stack: </span>HTML, CSS,
+                JavaScript
+              </p>
+              <li>
+                Built a personal portfolio website to showcase projects and
+                skills using HTML5 and modern CSS features.
+              </li>
+              <li>
+                Implemented a responsive layout using media queries, ensuring
+                the site is optimized for various screen sizes.
+              </li>
+              <li>
+                Integrated JavaScript for smooth scrolling and interactive
+                elements.
+              </li>
+              <br />
+              <h4>Quiz App</h4>
+              <p>
+                <span style="font-weight: 800">Tech Stack: </span> JavaScript,
+                CSS and React.js
+              </p>
+              <li>
+                Quizzical is a simple quiz app that lets you select alternatives
+                and then gives you a score. It's built with functional React
+                components.
+              </li>
+              <li>
+                Designed reusable React components and employed state management
+                using React Hooks.
+              </li>
+              <li>Created a fully responsive user interface using CSS3</li>
+              <br />
+              <h4>Tenzies</h4>
+              <p>
+                <span style="font-weight: 800">Tech Stack: </span> JavaScript,
+                CSS and React.js
+              </p>
+              <li>
+                Designed a simple Tenzies; a dices roll game for children.
+              </li>
+              <li>
+                Implemented functional React components and manage state using
+                React Hooks to update dies dynamically.
+              </li>
+              <br />
+              <hr />
+              <h4>EDUCATION</h4>
+              <p>
+                <span style="font-weight: 800"
+                  >ALX Africa Software Engineering Program
+                </span>
+                (2024)
+              </p>
+              <li>
+                Gained in-depth knowledge in full-stack development with a focus
+                on frontend technologies
+              </li>
+              <li>
+                Completed various sprints and projects in web development,
+                including building responsive layouts and JavaScript-based
+                applications.
+              </li>
+              <br />
+              <p>
+                <span style="font-weight: 800"
+                  >Bachelor’s Degree in Electronics and Electrical Engineering
+                </span>
+                (2014)
+              </p>
+              <p>
+                Ladoke Akintola University of Technology P.M.B 4000, Ogbomoso,
+                Oyo State, Nigeria | Ogbomoso, Oyo State, Nigeria
+              </p>
+              <br />
+            </div>
+          </div>
+        </section>
+        <section id="Contact" class="Contact">
+          <div>
+            <h2 class="main-heading">Contact</h2>
+            <div class="topBer"></div>
+            <p class="large">
+              Please reach out if you have any questions! I'm happy to jump on a
+              video call to brainstorm projects and ideas. Send me an email at
+              <a href="mailto:adexoludare@gmail.com">adexoludare@gmail.com</a>
+              or call me directly at <br />
+              <a href="tel:+234 7039 142 335"
+                ><samp class="main-heading">+234 7039 142 335</samp></a
+              >
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-contianner">
+          <div class="footer-me">
+            <h4>Adedipupo Oludare</h4>
+            <p>
+              I turn ideas into reality and make applications that are both
+              functional and visually appealing.
+            </p>
+          </div>
+          <div class="footer-social">
+            <h4>Social</h4>
+            <a href="https://www.linkedin.com/in/adedipupo-oludare-666822a0 "
+              ><img
+                src="./images/linkedin.png"
+                alt="linkedin icon"
+                width="30px"
+                class="iconLink"
+            /></a>
+            <a href="https://www.github.com/adexoludare "
+              ><img
+                src="./images/gitHub.png"
+                alt="git hub icon"
+                width="30px"
+                class="iconLink"
+            /></a>
+            <a
+              href="https://www.figma.com/files/team/1304977113917930914/recents-and-sharing?fuid=1297463098711425466"
+              ><img
+                src="./images/figma.png"
+                alt="figma icon"
+                width="20px"
+                class="iconLink"
+            /></a>
+            <a href="https://x.com/adexoludare"
+              ><img
+                src="./images/twitter.png"
+                alt="twitter icon"
+                width="30px"
+                class="iconLink"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <aside>
+      <div class="sideCard">
+        <div class="aside--herder">
+          <h2>Adedipupo Oludare A</h2>
+        </div>
+        <div class="provImage">
+          <img src="./images/Adexoludare.png" alt="adexoludare picture" />
+        </div>
+        <div class="sideCardBody">
+          <p class="aside-tag">Specialization:</p>
+          <h3>Frontend developer and UI/UX designer</h3>
+          <p class="aside-tag">Based in:</p>
+          <h3>Lagos, Nigeria</h3>
+          <div class="iconGroup">
+            <a href="https://www.linkedin.com/in/adedipupo-oludare-666822a0 "
+              ><img
+                src="./images/linkedin.png"
+                alt="linkedin icon"
+                width="30px"
+                class="iconLink"
+            /></a>
+            <a href="https://www.github.com/adexoludare "
+              ><img
+                src="./images/gitHub.png"
+                alt="git hub icon"
+                width="30px"
+                class="iconLink"
+            /></a>
+            <a
+              href="https://www.figma.com/files/team/1304977113917930914/recents-and-sharing?fuid=1297463098711425466"
+              ><img
+                src="./images/figma.png"
+                alt="figma icon"
+                width="20px"
+                class="iconLink"
+            /></a>
+            <a href="https://x.com/adexoludare"
+              ><img
+                src="./images/twitter.png"
+                alt="twitter icon"
+                width="30px"
+                class="iconLink"
+            /></a>
+          </div>
+          <a href="#Contact"
+            ><button class="btn">Let’s work Together!</button></a
+          >
+        </div>
+      </div>
+    </aside>
+    <script src="index.js"></script>
+  </body>
+</html>
