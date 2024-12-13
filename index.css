@@ -82,6 +82,8 @@ body{
     margin: var(--header-height) 0 0 0;
     background: #ffffff;
     color: #7A1CAC;
+    height: 100%;
+    width: 100vw;
 }
 
 .darkMode{
@@ -93,11 +95,12 @@ body{
     
 }
 
-/*  */
+/* display Body */
 .container{
     position: relative;
-    margin: 1em;
+    margin: 1em 0.5em;
     font-size: 1.2rem;
+    width: 100vw;
 }
 
 /* menu nav links */
@@ -115,6 +118,7 @@ body{
 .profile{
     width: 250px;
     display: flex;
+    justify-content: space-between;
 }
 
 .nav-link{
@@ -196,7 +200,6 @@ a:focus, a:hover{
 
 /* all sectional padding*/
 .Contact, .Resume, .AboutMe, .Projects, .Home{
-    /* height:  100vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -234,7 +237,6 @@ a:focus, a:hover{
 }
 .card{ 
     padding-top: 2em;
-    height: 100vh;
 }
 .aline-center{
     text-align: center;
@@ -242,24 +244,37 @@ a:focus, a:hover{
 
 .skill{
     display:inline-block;
-    min-width: 50px;
+    /* min-width: 50px; */
     background: rgba(235, 211, 248, 0.5);
     padding: 0.25em 0.5em;
     margin: 0.25em;
     border-radius: 8px;
 }
-#skills{
+.AboutMe .skills{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 /* Project section */
 .Projects{
     padding: var(--header-height);
+    margin-top: var(--header-height);
+    margin-left: auto;
+    margin-left: auto;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    width: 100vw;
+    align-items: center;
 }
 .projects__row-img{
-    width: 350px;
+    width: 290px;
     margin: 0.7em 0.5em;
+}
+
+.projects__row-content{
+    align-items: center;
+     margin: 0.5em;
 }
 .projects__row-content-desc{
     margin-bottom: 8px;
@@ -298,7 +313,6 @@ a:focus, a:hover{
 }
 /* footer */
 footer{
-    height: 25vh;
     background: rgba(173, 73, 225, 0.5);
     position: absolute;
     padding: 3% 4%;
@@ -424,7 +438,7 @@ aside{
     top: var(--header-height);
     left: 0;
     margin-left: 0;
-    width: 32vw;
+    width: 30vw;
     height: 90vh;
     }
     .sideCard .btn:focus, .sideCard .btn:hover{
@@ -433,7 +447,10 @@ aside{
 
     /* main body view */
     .container{
-    margin-left: 35vw;
+    align-items: center;
+    width: 68vw;
+    margin-left: 32vw;
+    padding: 8px;
     }
 
     .skills{
@@ -463,14 +480,17 @@ aside{
     }
     /* Project section */
     .Projects{
-        padding-left: 4px;
+    width: 68vw
     }
     .projects__row{
         display: flex;
         justify-content: space-between;
     }
-    .projects__row-content{
-        margin: 0.5em;
-        margin-right: 0;
+    
+    .img_group{
+        display: flex;
+    }
+    .projects__row-img{
+        width: 250px;
     }
 }
